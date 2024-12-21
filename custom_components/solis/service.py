@@ -29,7 +29,7 @@ from .ginlong_const import (
 
 # REFRESH CONSTANTS
 # Match up with the default SolisCloud API resolution of 5 minutes
-SCHEDULE_OK = 5
+SCHEDULE_OK = 1
 # Attempt retries every 1 minute if we fail to talk to the API, though
 SCHEDULE_NOK = 1
 
